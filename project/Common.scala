@@ -12,15 +12,15 @@ object Common extends AutoPlugin {
 
   object autoImport {
     val zioVersion = "1.0.7"
-    val zioCatsInteropVersion = "2.4.1.0"
+    val zioCatsInteropVersion = "3.0.2.0"
     val zioReactiveStreamsInteropVersion = "1.3.3"
     val zioConfigVersion = "1.0.4"
-    val catsEffectVersion = "2.5.0"
+    val catsEffectVersion = "3.1.0"
 
     val awsVersion = "2.16.46"
     val awsSubVersion = awsVersion.drop(awsVersion.indexOf('.') + 1)
-    val http4sVersion = "0.21.22"
-    val fs2Version = "2.5.5"
+    val http4sVersion = "1.0.0-M21"
+    val fs2Version = "3.0.1"
 
     val majorVersion = "3"
     val zioAwsVersionPrefix = s"$majorVersion.$awsSubVersion."
